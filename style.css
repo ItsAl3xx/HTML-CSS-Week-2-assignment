@@ -1,12 +1,81 @@
-
-/* Add your CSS rules here */
 body {
-    background-color: #1a1a1a;
-    color: #ffffff;
+    background-color: #333333; /* Modern dark gray */
+    color: #F2F2F2; /* Light text for readability */
 }
 
-a {
-    color: #ffffff;
+/* this is for the navigation bar that is on top of the page */
+
+/* Style for navigation links */
+nav {
+    background-color: #1E1E1E; /* Dark gray background */
+    color: #FFFFFF; /* For White text */
+    text-align: center; /* For Center the nav items */
+    padding: 5px 10; /* For Adding some padding */
 }
 
-/* Add more CSS rules to modify other elements as needed */
+nav a {
+    display: inline-block;
+    color: #FFFFFF; /* White color for the links */
+    padding: 8px 15px; /* Vertical and horizontal padding */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 16px; /* Set a comfortable font size */
+}
+
+/*this is for the places of interest section*/
+
+/* Style for content */
+.content {
+    text-align: center;
+}
+
+/* Style for the image */
+.homepage-image {
+    max-width: 100%;
+    height: auto;
+    /* Additional styling as needed */
+}
+
+.place-section {
+    display: flex; /* This is Enable Flexbox */
+    align-items: center; /* Align items vertically */
+    justify-content: start; /* Align items to the start horizontally */
+    margin-bottom: 20px; 
+}
+
+.place-image {
+    width: 50%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Space between image and content */
+}
+
+.place-content {
+    width: 50%; 
+    display: flex; /* Enable Flexbox inside the content */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: start; /* Align items to the start (left) */
+}
+
+/* Contact Us Form Container Styles */
+.form-container {
+    background-color: #424242; /* Lighter background for the form */
+    padding: 20px; /* Padding inside the container */
+    margin: 40px auto; /* Center the form container */
+    max-width: 500px; /* Maximum width */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Style for Form Inputs, Textarea, and Submit Button */
+.form-container input, .form-container textarea {
+    margin: 10px 0; /* Margin for spacing */
+    padding: 10px; /* Padding inside fields */
+    width: calc(100% - 20px); /* Full width accounting for padding */
+    border-radius: 4px; /* Rounded borders */
+}
+
+/* Style for the Submit Button */
+.form-container input[type="submit"] {
+    background-color: #007AFF; /* Button background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Pointer cursor */
+}
